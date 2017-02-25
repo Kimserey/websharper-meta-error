@@ -5,5 +5,5 @@ open Library1
 
 type Meta =
     {
-        Field: FieldType
+        Field: Library1.FieldType
     }

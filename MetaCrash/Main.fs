@@ -24,7 +24,7 @@ module Site =
     let Main =
         let meta = 
             {
-                Field = FieldType.TypeA
+                Field = Library1.FieldType.TypeA
             }
 
         Application.SinglePage (fun ctx -> Content.Page(MainPage.Doc("Test", [ client <@ Client.page meta @> ])))
