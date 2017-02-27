@@ -13,6 +13,8 @@ module Client =
     open WebSharper.UI.Next.Client
 
     let page (meta: Meta) =
+        let fix() = Library1.TypeA 
+        
         text "Hello world"
 
 module Site =
